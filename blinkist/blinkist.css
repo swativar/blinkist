@@ -1,0 +1,143 @@
+section{
+    margin: 5% 5%;
+}
+#header_img{
+    max-width: 100%;
+    object-fit: cover;
+    height: 250px;
+    margin:10% 0;
+    
+}
+.gif_img{
+    max-width: 100%;
+    object-fit: cover;
+    width:300px;
+    height: 250px;
+    margin:10% 0;
+}
+#sec{
+    margin-top:10%;
+}
+footer{
+    margin-top: 10%;
+}
+footer ul,h5{
+   text-align: center;
+}
+.foot_up{
+    padding: 5%; 
+    margin-top: 15%;
+}
+#one .card-content i,#two .card-content i,#three .card-content i,#four .card-content i,#five .card-content i,
+#six .card-content i,#seven .card-content i,#eight .card-content i,#nine .card-content i,#ten .card-content i{
+    position: relative;
+    top:7px;
+}
+#one,#two,#three,#four,#five,#six,#seven,#eight,#nine,#ten{
+    display: none;
+}
+#one h5,#two h5,#three h5,#four h5,#five h5,#six h5,#seven h5,#eight h5,#nine h5,#ten h5{
+font-weight: bolder;
+}
+.tap-target-content{
+    padding:0px !important;
+    top:56px !important;
+}
+/*.card-image{
+    width:340px;
+    height: 300px;
+}*/
+.card-image img{
+    max-width:100%;
+    object-fit: cover;
+    height: 280px;
+}
+@keyframes blink{
+0%{color:red;}
+25%{color:blue;}
+50%{color:black;}
+75%{color:teal;}
+100%{color:red;}
+}
+#blink{
+    animation-name: blink;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.collection-item:hover{
+    color: black!important;
+}
+.nav-wrapper{
+    padding:0 2%;
+}
+.cont{
+    padding: 0 5%;
+}
+@media screen and (min-width:700px){
+    #sec{
+        width:40%;
+        margin: 2% auto;
+    }
+    .card{
+        width: 280px;
+        height: 450px;
+    }
+    #one,#two,#three,#four,#five,#six,#seven,#eight,#nine,#ten .row{
+        padding: 5% 10%;
+    }
+    .ebook{
+        padding:3% 15%;
+    }
+    #header_img{
+        display: none;
+    }
+    #header_sec{
+        background-image: url(https://images.hdqwalls.com/wallpapers/girl-boy-computer-love-image.jpg);
+        max-width: 100%;
+        padding:5%;
+        background-position: center;
+        background-size: cover;
+        height: 450px;
+        text-align: left;
+    }
+    #header_sec p, #header_sec h4{
+        color: white;
+        font-weight: bolder;
+        font-size: 1.5em;
+    }
+    section{
+        margin:0;
+    }
+    .foot_up{
+        padding: 5%; 
+        margin-top: 7%;
+    }
+    footer{
+        margin-top: 5%;
+    }
+}
+@media screen and (min-width:900px){
+    #one,#two,#three,#four,#five,#six,#seven,#eight,#nine,#ten .row{
+        padding:5% 5%;
+    } 
+    footer{
+        margin-top: 7%;
+    } 
+}
+@media screen and (min-width:1200px){
+    #one,#two,#three,#four,#five,#six,#seven,#eight,#nine,#ten .row{
+        padding: 5% 10%;
+    }
+    .card{
+        width: 300px;
+        height: 450px;
+    }
+    footer{
+        margin-top: 2%;
+    }
+    #footer_in{
+        position: relative;
+        left: 50px;
+        padding: 0 10%;
+    }
+}
